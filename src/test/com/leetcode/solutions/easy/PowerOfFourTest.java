@@ -2,14 +2,14 @@ package test.com.leetcode.solutions.easy;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import main.com.leetcode.solutions.easy.PowerOfFour_342;
+import main.com.leetcode.solutions.easy.PowerOfFour;
 import org.junit.jupiter.api.Test;
 
-class PowerOfFour_342Test {
+class PowerOfFourTest {
 
   @Test
   void isPowerOfFour() {
-    PowerOfFour_342 powerOfFour = new PowerOfFour_342();
+    PowerOfFour powerOfFour = new PowerOfFour();
     assertTrue(powerOfFour.isPowerOfFour(16));
   }
 }

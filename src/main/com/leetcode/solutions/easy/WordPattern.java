@@ -5,7 +5,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class WordPattern_290 {
+/**
+ * Solution of leetCode problem#290
+ */
+public class WordPattern {
   public boolean wordPattern(String pattern, String s) {
     String [] listOfWords = s.split(" ");
     int patternSize = pattern.length();

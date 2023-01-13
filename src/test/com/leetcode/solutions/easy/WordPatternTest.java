@@ -2,14 +2,14 @@ package test.com.leetcode.solutions.easy;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import main.com.leetcode.solutions.easy.WordPattern_290;
+import main.com.leetcode.solutions.easy.WordPattern;
 import org.junit.jupiter.api.Test;
 
-class WordPattern_290Test {
+class WordPatternTest {
 
   @Test
   void wordPatternTest() {
-    WordPattern_290 wordPattern = new WordPattern_290();
+    WordPattern wordPattern = new WordPattern();
     assertTrue(wordPattern.wordPattern("abba", "dog cat cat dog"));
   }
 }

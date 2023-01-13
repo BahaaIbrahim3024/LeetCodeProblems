@@ -1,6 +1,9 @@
 package main.com.leetcode.solutions.easy;
 
-public class PowerOfFour_342 {
+/**
+ * Solution of leetCode problem#342
+ */
+public class PowerOfFour {
 
   public boolean isPowerOfFour(int n) {
     // Base Cases
