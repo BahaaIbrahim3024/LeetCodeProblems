@@ -1,4 +1,4 @@
-package com.solutions.easy;
+package main.com.leetcode.solutions.easy;
 
 public class PowerOfFour_342 {
 
